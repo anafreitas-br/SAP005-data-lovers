@@ -8,13 +8,12 @@
 * [5. Considerações gerais](#3-Considerações-gerais)
 * [5. Critérios mínimos de aceitação do projeto](#3-Critérios-mínimos-de-aceitação-do-projeto)
 
-
-***
+*
 
 
 ## 1. PRODUTO
 
-Desenvolvemos uma pagina web, para os fãs da série "Rick and Morty". Nela o usuário pode acessar e pesquisar maiores informações sobre os personagens...
+Desenvolvemos uma pagina web, para os fãs da série "Rick and Morty". Nela o usuário pode acessar e pesquisar maiores informações sobre os personagens.
 
 
 ## 2. História de usuário
@@ -30,7 +29,8 @@ Tendo como referência as necessidades dos usuários, elaboramos o seguinte épi
     Conhecer a aparência, nome, gênero, status, localização de todos os personagens da série. Poder filtrar, ordenar ou buscar os personagens presentes na série.
 
 
-![ ](./src/data/rickandmorty/images/usuarios.jpg)
+![ ](./data/rickandmorty/images/usuarios.jpg)
+
 
 
 ## 3. Interface
@@ -92,13 +92,11 @@ Durante o trabalho foi feito um protótipo de como o projeto ia ficar, para aces
 protótipo click
 * [aqui](https://drive.google.com/file/d/1GWEvpNgV7Otc401Aqnql4umOmer1RPDQ/view?ts=5faec699)
 
-***
-
 ##  Checklist
 
 * [✔️] Usar VanillaJS.
 * [✔️] Não utilizar `this`.
-* [✔️] Inclui uma _definição de produto_ clara e informativa no `README.md`.
+* [✔️] Inclui uma definição de produto clara e informativa no `README.md`.
 * [✔️] Inclui histórias de usuário no `README.md`.
 * [✔️] Inclui rascunho da solução (protótipo de baixa fidelidade) no `README.md`.
 * [✔️] Inclui uma lista de problemas detectados nos testes de usabilidade no
