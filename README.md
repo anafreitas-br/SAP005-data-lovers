@@ -30,7 +30,7 @@ Tendo como referência as necessidades dos usuários, elaboramos o seguinte épi
     Conhecer a aparência, nome, gênero, status, localização de todos os personagens da série. Poder filtrar, ordenar ou buscar os personagens presentes na série.
 
 
-![ ](./data/rickandmorty/images/usuarios.jpg)
+![ ](./src/data/rickandmorty/images/usuarios.jpg)
 
 ## 3. Interface
 
@@ -87,9 +87,11 @@ Os critérios considerados para que tenha terminado este projeto são:
 
 #### Protótipo de baixa fidelidade
 
-Durante o trabalho foi feito um protótipo de como o projeto ia ficar, para acessar o 
-protótipo click
-* [aqui](https://drive.google.com/file/d/1GWEvpNgV7Otc401Aqnql4umOmer1RPDQ/view?ts=5faec699)
+No inicio do projeto foi um feito um protótipo para melhor visualização, do layout da página.
+
+![prototipo](./data/rickandmorty/images/PROTOTIPO.jpeg)
+
+* 
 
 *
 

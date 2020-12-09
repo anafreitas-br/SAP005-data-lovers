@@ -1,4 +1,4 @@
-export function getName(allData, name) {
+export const getName=(allData, name) => {
   let filteredName = name[0].toUpperCase() + name.slice(1).toLowerCase();
  return allData.filter(personage => personage.name.startsWith(filteredName))
 }

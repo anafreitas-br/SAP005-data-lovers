@@ -14,13 +14,21 @@ document.getElementById("btn").addEventListener("click", (event) => {
 });
 
 function templateCard(allData) {
-    let data = allData.map(personage => `<div class="frontContainer"><img src=${personage.image} alt="Avatar" class="img-card" /> 
-<br> <b class="name">${personage.name}  
-</b></div>`)
+    let data = allData.map(personage => 
+        `<div class="frontContainer">
+        <img src=${personage.image} alt="Avatar" class="img-card" /> 
+        <br> 
+        <b class="name">${personage.name}  
+        </b></div>`)
 
-    let backData = allData.map(personage => `<div class="backCard">  <h4><p> Name:  ${personage.name} <br> Genus: 
-   ${personage.gender} <br> Status: ${personage.status} <br> Species: ${personage.species} <br> 
-   Origin:${personage.origin.name}<br> Location:${personage.location.name}</h4></p></div>`)
+    let backData = allData.map(personage => 
+        `<div class="backCard">  
+        <h4><p> Name:  ${personage.name} <br> 
+        Genus: ${personage.gender} <br> 
+        Status: ${personage.status} <br> 
+        Species: ${personage.species} <br> 
+        Origin:${personage.origin.name}<br> 
+        Location:${personage.location.name}</h4></p></div>`)
     document.getElementById("backCard").innerHTML = backData;
 
     return data
@@ -48,7 +56,7 @@ let alive = 0
 let dead = 0
 let unknown = 0
 
-for (let i = 0; i < statusData.length; i++) {
+for (let  of statusData){
 
     if (statusData[i] === 'Alive') {
         alive += 1
