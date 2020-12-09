@@ -56,7 +56,8 @@ let alive = 0
 let dead = 0
 let unknown = 0
 
-for (let  of statusData){
+
+for (let i = 0; i < statusData.length; i++) {
 
     if (statusData[i] === 'Alive') {
         alive += 1
